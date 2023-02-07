@@ -21,7 +21,7 @@ let randomQuotes = [
 
 const returnQuote = (randomQuotes) => {
   const randomIndex = Math.floor(Math.random() * randomQuotes.length)
-  console.log(randomIndex)
+  console.log(randomQuotes[randomIndex])
   return
 }
 returnQuote(randomQuotes)
