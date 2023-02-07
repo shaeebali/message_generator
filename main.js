@@ -20,5 +20,8 @@ let randomQuotes = [
 // Create a function that returns a random quote from the array above
 
 const returnQuote = (randomQuotes) => {
-
+  const randomIndex = Math.floor(Math.random() * randomQuotes.length)
+  console.log(randomIndex)
+  return
 }
+returnQuote(randomQuotes)
